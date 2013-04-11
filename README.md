@@ -6,7 +6,7 @@ Starter files for product creation in Flite.
 Usage
 =====
 
-Your code should go in the Product.as file - you don't need to modify anything else.
+Your code goes in the init function of Product.as
 
 Main.as has a debug variable, set it to true to debug the product locally, set it to false when the unit is ready to be uploaded on the server.
 
