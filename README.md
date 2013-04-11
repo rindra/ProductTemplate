@@ -28,5 +28,6 @@ Process
 3. modify the assets.fla
 4. add your code in Product.as
 5. compile, when ready set debug to false and upload to server.
+
 (6. create a thumbnail from you favorite 80s artist for your component)
  
