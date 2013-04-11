@@ -17,6 +17,7 @@ Product.as has 2 arguments:
 	Product($lib:Object, $f:Function)
 			
 $lib: the assets library object.
+
 $f: the tracking function.
 
 Process
