@@ -1,27 +1,31 @@
-InformR
+ProductTemplate
 =====
 
-Simple class to retrieve user data.
+Starter files for product creation in Flite.
 
 Usage
 =====
 
-First intantiate the informer class:
+Your code should go in the Product.as file - you don't need to modify anything else.
 
-	var informr:InformR = new InformR;
+Main.as has a debug variable, set it to true to debug the product locally, set it to false when the unit is ready to be uploaded on the server.
 
-The class has 2 properties:
+	private var debug:Boolean = false;
 
-	informr.userBrowser;
-	informr.userFlash;
+Product.as has 2 arguments:
+
+	Product($lib:Object, $f:Function)
 			
-After processing the data you can call the appropriate counter event in your tracking class:
+$lib: the assets library object.
+$f: the tracking function.
 
-	HtmlEnabler.getInstance().counter("user_firefox", true);
-	HtmlEnabler.getInstance().counter("user_chrome", true);
-	HtmlEnabler.getInstance().counter("user_safari", true);
-	HtmlEnabler.getInstance().counter("user_ie", true);
-	HtmlEnabler.getInstance().counter("user_opera", true);
-			
-	HtmlEnabler.getInstance().counter("user_flash_10", true);
-	HtmlEnabler.getInstance().counter("user_flash_11", true);
+Process
+=====
+
+1. clone/download the repo
+2. set debug = true in main.as
+3. modify the assets.fla
+4. add your code in Product.as
+5. compile, when ready set debug to false and upload to server.
+(6. create a thumbnail from you favorite 80s artist for your component)
+ 
