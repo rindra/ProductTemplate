@@ -23,7 +23,7 @@ $f: the tracking function.
 Process
 =====
 
-1. clone/download the repo
+1. clone/download the repo.
 2. set debug = true in main.as
 3. modify the assets.fla
 4. add your code in Product.as
